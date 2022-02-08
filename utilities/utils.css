@@ -1,0 +1,229 @@
+:root {
+  --value-0-5: 0.5rem;
+  --value-1-5: 1.5rem;
+  --value-1: 1rem;
+  --value-2: 2rem;
+  --value-3: 3rem;
+  --value-4: 4rem;
+  --value-5: 5rem;
+  --value-6: 6rem;
+  --value-8: 8rem;
+
+  /* color */
+  --primary-clr: #5927e5;
+  --secondary-clr: #1f1926;
+
+  --para-clr: #333333;
+  --bg-color: #fcf7ff;
+  --text-white: #fef6ff;
+  --gray: #e5e5e5;
+  --black: #282828;
+
+  /* letter spacing */
+  --spacing: 0.1rem;
+  --radius: 0.25rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* width */
+
+.w-100 {
+  width: 100%;
+}
+
+.w-10 {
+  width: 10rem;
+}
+
+.max-w {
+  max-width: 20rem;
+}
+
+/* height */
+
+.ht-3 {
+  height: 3rem;
+}
+
+.min-ht-4 {
+  min-height: 4rem;
+}
+
+/* border-radius */
+
+.br-2 {
+  border-radius: 2rem;
+}
+
+/* font sizes */
+
+.text-xl {
+  font-size: 2rem;
+}
+
+.text-l {
+  font-size: 1.5rem;
+}
+
+.text-m {
+  font-size: 1.25rem;
+}
+
+.text-sm {
+  font-size: 1rem;
+}
+
+/* flex */
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.content-center {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+
+/* text align */
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* font-weight */
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-semi {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-black {
+  font-weight: 900;
+}
+
+/* position */
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.top-1 {
+  top: 1rem;
+}
+
+.right-1 {
+  right: 1rem;
+}
+
+.bottom-1 {
+  bottom: 1rem;
+}
+
+.left-1 {
+  left: 1rem;
+}
+
+/* z-index */
+.z-1 {
+  z-index: 1;
+}
+
+.z-2 {
+  z-index: 2;
+}
+
+.z-3 {
+  z-index: 3;
+}
+
+.z-4 {
+  z-index: 4;
+}
+
+.z-5 {
+  z-index: 5;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+/* cursor */
+.pointer {
+  cursor: pointer;
+}
