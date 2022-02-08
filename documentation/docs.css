@@ -1,0 +1,158 @@
+@import url("../gearUI.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css");
+
+:root {
+  --black: #343a40;
+  --gray: #e5e5e5;
+}
+
+/* grid-container */
+
+body {
+  color: var(--black);
+}
+
+.grid-container {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-columns: 20rem 1fr;
+  grid-template-rows: 5rem 1fr;
+  grid-template-areas:
+    "navbar navbar"
+    "sidebar main";
+}
+
+/* navbar */
+
+.navbar {
+  grid-area: navbar;
+  background-color: var(--bg-color);
+  box-shadow: var(--light-shadow);
+  border: 1px solid var(--gray);
+}
+
+.logo-name :nth-child(1) {
+  color: var(--primary-clr);
+}
+
+.logo-name :nth-child(2) {
+  color: var(--secondary-clr);
+}
+
+.docs-link {
+  color: var(--secondary-clr);
+}
+
+.social-link {
+  color: var(--secondary-clr);
+}
+
+.docs-link:hover,
+.social-link:hover {
+  color: var(--primary-clr);
+}
+
+/* sidebar */
+
+.sidebar {
+  grid-area: sidebar;
+  position: fixed;
+  top: 5rem;
+  z-index: 1;
+  height: calc(100vh - 5rem);
+  width: 20rem;
+  overflow: auto;
+  transition: 0.3s;
+  background-color: var(--bg-color);
+  border-right: 1px solid var(--gray);
+}
+
+.sidebar.sidebar-toggle {
+  width: 20rem;
+}
+
+.brandname :nth-child(1) {
+  color: var(--primary-clr);
+}
+
+.brandname :nth-child(2) {
+  color: var(--secondary-clr);
+}
+
+.hide {
+  display: none;
+}
+
+.list-item a {
+  width: 100%;
+  display: block;
+}
+
+.list-item:hover {
+  border-radius: 5px;
+  background-color: var(--gray);
+}
+
+/* main */
+
+.main {
+  grid-area: main;
+}
+
+@media screen and (min-width: 480px) {
+  .menu {
+    display: none;
+  }
+  .sidebar-title {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 5rem 1fr;
+    grid-template-areas:
+      "navbar"
+      "main";
+  }
+
+  .logo-name {
+    display: none;
+  }
+
+  .brandname {
+    display: block;
+  }
+  .menu {
+    display: block;
+    color: var(--secondary-clr);
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+  }
+
+  .close {
+    font-size: 1.5rem;
+    color: var(--secondary-clr);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    background: transparent;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 0rem;
+    height: 100%;
+    background-color: var(--bg-color);
+  }
+}
