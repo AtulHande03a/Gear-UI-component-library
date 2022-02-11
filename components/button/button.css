@@ -1,0 +1,133 @@
+.btn {
+  width: max-content;
+  display: inline-block;
+  padding: 0.75rem 1rem;
+  min-width: 80px;
+  color: var(--white);
+  border-radius: 0.5rem;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: var(--primary-clr);
+  border: 1px solid var(--primary-clr);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-clr);
+  border: 1px solid var(--secondary-clr);
+}
+
+.btn-success {
+  background-color: var(--green);
+  border: 1px solid var(--green);
+}
+
+.btn-danger {
+  background-color: var(--dark-red);
+  border: 1px solid var(--dark-red);
+}
+
+.btn-outline-primary {
+  background-color: transparent;
+  color: var(--primary-clr);
+}
+
+.btn-outline-secondary {
+  background-color: transparent;
+  color: var(--secondary-clr);
+}
+
+.btn-outline-success {
+  background-color: transparent;
+  color: var(--green);
+}
+
+.btn-outline-danger {
+  background-color: transparent;
+  color: var(--dark-red);
+}
+
+.btn-link {
+  background: transparent;
+  background-color: none;
+  border: none;
+  border-radius: 0;
+  color: var(--primary-clr);
+  border-bottom: 2px solid var(--primary-clr);
+  padding: 0;
+  min-width: max-content;
+  min-height: max-content;
+  -webkit-border-radius: 0;
+  line-height: 1.5;
+}
+
+.icon-btn {
+  font-size: 1.25rem;
+  color: var(--primary-clr);
+  cursor: pointer;
+}
+
+.btn-float-icon {
+  border-radius: 50%;
+  padding: 1.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border: 1px solid inherit;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.icon-btn:hover {
+  color: var(--hover-primary);
+}
+
+.btn-link:hover {
+  background-color: none;
+  background: transparent;
+  color: var(--hover-primary);
+  border-bottom: 2px solid var(--hover-primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--hover-primary);
+  border: 1px solid var(--hover-primary);
+}
+
+.btn-success:hover {
+  background-color: var(--medium-green);
+  border: 1px solid var(--medium-green);
+}
+
+.btn-danger:hover {
+  background-color: var(--red);
+  border: 1px solid var(--red);
+}
+
+.btn-secondary:hover {
+  background-color: var(--hover-secondary);
+  border: 1px solid var(--hover-secondary);
+}
+
+.btn-outline-primary:hover,
+.btn-outline-secondary:hover {
+  color: var(--white);
+}
+
+.btn-outline-success:hover,
+.btn-outline-danger:hover {
+  color: var(--white);
+}
+
+@media screen and (max-width: 720px) {
+  .btn {
+    font-size: 14px;
+  }
+}
