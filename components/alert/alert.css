@@ -1,0 +1,35 @@
+.alert {
+  width: 100%;
+  max-width: 50rem;
+}
+
+.alert-icon {
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.success {
+  color: var(--green);
+  background-color: var(--light-green);
+}
+
+.alert-close {
+  font-size: 1.5rem;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.info {
+  color: var(--blue);
+  background-color: var(--light-blue);
+}
+
+.error {
+  color: var(--red);
+  background-color: var(--light-red);
+}
+
+.warning {
+  color: var(--dark-yellow);
+  background-color: var(--light-yellow);
+}

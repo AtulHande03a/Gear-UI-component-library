@@ -1,8 +1,8 @@
 @import url("../gearUI.css");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
 
 :root {
-  --black: #343a40;
+  --black: #212529;
   --gray: #e5e5e5;
 }
 
@@ -92,12 +92,37 @@ body {
 .list-item:hover {
   border-radius: 5px;
   background-color: var(--gray);
+  color: var(--primary-clr);
 }
 
 /* main */
 
 .main {
   grid-area: main;
+  overflow-wrap: break-word;
+  scroll-behavior: smooth;
+  overflow: auto;
+}
+
+.snippet,
+.snippet iframe {
+  width: 100%;
+  height: 100%;
+  max-width: 95rem;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.reset-btn {
+  background-color: var(--gray);
+  color: var(--black);
+  border: 1px solid var(--black);
+}
+
+.reset-btn:hover {
+  background-color: var(--light-blue);
 }
 
 @media screen and (min-width: 480px) {
