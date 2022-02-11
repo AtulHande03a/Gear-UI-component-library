@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./badge.css" />
+    <link rel="stylesheet" href="../../gearUI.css" />
+    <title>Badge</title>
+  </head>
+  <body>
+    <section id="badge">
+      <article>
+        <div>
+          <h3 class="font-black my-1-5">Badge</h3>
+          <p>
+            Badges are used to display the notification count or status display.
+          </p>
+          <!-- status badge -->
+          <h4 class="font-semibold my-1">Status Badge</h4>
+          <p>
+            In the status badge, we can show colors to show the online status of
+            user or for cart status. Check code below to copy the html part as
+            is.
+          </p>
+        </div>
+        <div
+          class="snippet text-center p-2-5 my-1 border flex wrap align-center content-center"
+        >
+          <i class="fa-solid fa-cart-shopping badge-icon mr-2 my-1">
+            <span class="badge icon-badge-pos green-badge border-white"></span>
+          </i>
+          <div class="avatar-badge mr-1-5 my-1">
+            <img
+              class="badge-avatar-xs br-50"
+              src="../../assets/images/avatar.jpg"
+              alt="badge-avatar-xs"
+            />
+            <span class="badge badge-xs red-badge border-white"></span>
+          </div>
+
+          <div class="avatar-badge mr-1-5 my-1">
+            <img
+              class="badge-avatar-m br-50"
+              src="../../assets/images/avatar.jpg"
+              alt="badge-avatar-m"
+            />
+            <span class="badge badge-m green-badge border-white"></span>
+          </div>
+
+          <div class="avatar-badge mr-1-5 my-1">
+            <div class="badge-text-avatar flex flex-center br-50 mr-1 my-0-5">
+              AH
+            </div>
+            <span class="badge badge-lg green-badge border-white"></span>
+          </div>
+        </div>
+
+        <!-- Number Badge -->
+        <h4 class="font-semibold my-1">Number Badge</h4>
+        <p>To show cart or notification count, you can use number badge</p>
+        <div
+          class="snippet text-center p-2-5 my-1 border flex wrap align-center content-center"
+        >
+          <i class="fa-solid fa-cart-shopping badge-icon mr-2 my-1">
+            <span
+              class="number-badge icon-badge-pos font-size-icon green-badge border-white"
+              >4</span
+            >
+          </i>
+          <div class="avatar-badge mr-1-5 my-1">
+            <img
+              class="badge-avatar-xs br-50"
+              src="../../assets/images/avatar.jpg"
+              alt="badge-avatar-xs"
+            />
+            <span
+              class="number-badge badge-xs font-size-badge red-badge border-white"
+              >55</span
+            >
+          </div>
+          <div class="avatar-badge mr-1-5 my-1">
+            <img
+              class="badge-avatar-m br-50"
+              src="../../assets/images/avatar.jpg"
+              alt="badge-avatar-m"
+            />
+            <span
+              class="number-badge badge-m green-badge font-size-badge border-white"
+              >22</span
+            >
+          </div>
+        </div>
+      </article>
+    </section>
+  </body>
+</html>
