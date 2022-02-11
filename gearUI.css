@@ -1,9 +1,11 @@
+/* importing utility css */
+
 @import url("./utilities/reset.css");
 @import url("./utilities/utils.css");
 @import url("./utilities/margin.css");
 @import url("./utilities/padding.css");
 
-/* components */
+/* components css*/
 
 @import url("./components/alert/alert.css");
 @import url("./components/avatar/avatar.css");
