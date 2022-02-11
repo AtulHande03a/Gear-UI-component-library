@@ -82,6 +82,8 @@
 .footer {
   color: var(--para-text);
   background: var(--bg-color);
+  position: fixed;
+  bottom: 0;
 }
 
 .footer-social-icons {
