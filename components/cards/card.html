@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet" href="../../gearUI.css" />
+    <title>Card</title>
+  </head>
+  <body>
+    <div
+      class="snippet p-2-5 my-1 border flex wrap align-center content-center"
+    >
+      <!-- Basic Vertical Card -->
+      <article class="card-verticle flex flex-column mr-2 my-1">
+        <section class="image-container mb-0-5">
+          <img
+            loading="lazy"
+            class="card-image responsive-img"
+            src="../../assets/images/sofa-card.jpg"
+            alt="chair-ikea"
+          />
+        </section>
+        <section class="px-0-5 mb-0-5">
+          <p class="card-title font-semi mb-0-5">
+            Andrea Sofa 3 seater in peacock green color
+          </p>
+          <span class="card-brand font-semi mb-1">Ikea</span>
+          <div class="card-price mb-0-5">
+            <span class="card-price-offer font-bold">₹ 39,999</span>
+            <span class="card-price-mrp font-semibold">₹ 79,999</span>
+          </div>
+          <div class="flex mb-0-5">
+            <span class="card-discount-text mb-0-5 font-semibold">50% off</span>
+            <span class="card-shipment font-semi">Ships in <b> 1 day</b></span>
+          </div>
+          <button class="card-buy-btn">Buy Now</button>
+        </section>
+      </article>
+
+      <!-- Basic Vertical Card  with Badge-->
+      <article class="card-verticle flex flex-column mr-2 my-1">
+        <section class="image-container mb-0-5">
+          <img
+            loading="lazy"
+            class="card-image responsive-img"
+            src="../../assets/images/sofa-card.jpg"
+            alt="chair-ikea"
+          />
+          <span class="text-badge">Best Seller</span>
+          <i class="fa-regular fa-heart icon-badge"></i>
+          <div class="card-rating flex flex-center">
+            <span class="card-rating-star">4.5</span>
+            <i class="fa-solid fa-star rating-star-icon"></i>
+          </div>
+          <div class="card-addtocart orange-btn">
+            <a href="#" class="add-to-cart-btn">Add To Cart</a>
+          </div>
+        </section>
+        <section class="px-0-5 mb-0-5">
+          <p class="card-title font-semi mb-0-5">
+            Andrea Sofa 3 seater in peacock green color
+          </p>
+          <span class="card-brand font-semi mb-1">Ikea</span>
+          <div class="card-price mb-0-5">
+            <span class="card-price-offer font-bold">₹ 39,999</span>
+            <span class="card-price-mrp font-semibold">₹ 79,999</span>
+          </div>
+          <div class="flex mb-0-5">
+            <span class="card-discount-text mb-0-5 font-semibold">50% off</span>
+            <span class="card-shipment font-semi">Ships in <b> 1 day</b></span>
+          </div>
+          <button class="card-buy-btn">Buy Now</button>
+        </section>
+      </article>
+
+      <!-- Card with dimiss button -->
+      <article class="card-verticle flex flex-column mr-2 my-1">
+        <section class="image-container mb-0-5">
+          <img
+            loading="lazy"
+            class="card-image responsive-img"
+            src="../../assets/images/sofa-card.jpg"
+            alt="chair-ikea"
+          />
+          <span class="text-badge">Best Seller</span>
+          <i class="fa-regular fa-circle-xmark dismiss-btn"></i>
+          <i class="fa-regular fa-heart icon-badge"></i>
+          <div class="card-rating flex flex-center">
+            <span class="card-rating-star">4.5</span>
+            <i class="fa-solid fa-star rating-star-icon"></i>
+          </div>
+          <div class="card-addtocart orange-btn">
+            <a href="#" class="add-to-cart-btn">Add To Cart</a>
+          </div>
+        </section>
+        <section class="px-0-5 mb-0-5">
+          <p class="card-title font-semi mb-0-5">
+            Andrea Sofa 3 seater in peacock green color
+          </p>
+          <span class="card-brand font-semi mb-1">Ikea</span>
+          <div class="card-price mb-0-5">
+            <span class="card-price-offer font-bold">₹ 39,999</span>
+            <span class="card-price-mrp font-semibold">₹ 79,999</span>
+          </div>
+          <div class="flex mb-0-5">
+            <span class="card-discount-text mb-0-5 font-semibold">50% off</span>
+            <span class="card-shipment font-semi">Ships in <b> 1 day</b></span>
+          </div>
+          <button class="card-buy-btn">Buy Now</button>
+        </section>
+      </article>
+
+      <!-- Card with Text Overlay -->
+      <article class="card-verticle flex flex-column mr-2 my-1">
+        <div class="overlay-container">
+          <section class="image-container mb-0-5">
+            <img
+              loading="lazy"
+              class="card-image responsive-img"
+              src="../../assets/images/sofa-card.jpg"
+              alt="chair-ikea"
+            />
+            <span class="text-badge">Best Seller</span>
+            <i class="fa-regular fa-circle-xmark dismiss-btn"></i>
+            <i class="fa-regular fa-heart icon-badge"></i>
+            <div class="card-rating flex flex-center">
+              <span class="card-rating-star">4.5</span>
+              <i class="fa-solid fa-star rating-star-icon"></i>
+            </div>
+            <div class="card-addtocart orange-btn">
+              <a href="#" class="add-to-cart-btn">Add To Cart</a>
+            </div>
+          </section>
+          <section class="px-0-5 mb-0-5">
+            <p class="card-title font-semi mb-0-5">
+              Andrea Sofa 3 seater in peacock green color
+            </p>
+            <span class="card-brand font-semi mb-1">Ikea</span>
+            <div class="card-price mb-0-5">
+              <span class="card-price-offer font-bold">₹ 39,999</span>
+              <span class="card-price-mrp font-semibold">₹ 79,999</span>
+            </div>
+            <div class="flex mb-0-5">
+              <span class="card-discount-text mb-0-5 font-semibold"
+                >50% off</span
+              >
+              <span class="card-shipment font-semi"
+                >Ships in <b> 1 day</b></span
+              >
+            </div>
+            <button class="card-buy-btn">Buy Now</button>
+          </section>
+          <div class="overlay-text">
+            <div class="overlay-text-container">Out Of Stock</div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Text only Card -->
+      <article class="card-verticle flex flex-column mr-2 my-1">
+        <section class="px-0-5 my-1 mr-1">
+          <p class="card-title font-semi my-0-5">
+            Andrea Sofa 3 seater in peacock green color
+          </p>
+          <span class="card-brand font-semi mb-1">Ikea</span>
+          <div class="card-price mb-0-5">
+            <span class="card-price-offer font-bold">₹ 39,999</span>
+            <span class="card-price-mrp font-semibold">₹ 79,999</span>
+          </div>
+          <div class="flex mb-0-5">
+            <span class="card-discount-text mb-0-5 font-semibold">50% off</span>
+            <span class="card-shipment font-semi">Ships in <b> 1 day</b></span>
+          </div>
+          <button class="card-buy-btn">Buy Now</button>
+        </section>
+      </article>
+
+      <!-- horizontal card -->
+      <article class="card-horizontal flex my-2">
+        <section class="horizontal-image-container mr-1">
+          <img
+            loading="lazy"
+            class="horizontal-card-image responsive-img"
+            src="../../assets/images/sofa-card.jpg"
+            alt="chair-ikea"
+          />
+        </section>
+        <section class="card-description p-1">
+          <h4 class="horizontal-card-title font-regular mb-0-5">
+            Andrea Sofa 3 seater in peacock green color
+          </h4>
+          <div class="hr-icon-container">
+            <i class="fa-regular fa-heart horizontal-icon-badge"></i>
+          </div>
+
+          <span class="horizontal-card-brand font-bold">By Ikea</span>
+          <span class="text-badge">Best Seller</span>
+          <div class="rating-warranty-wrap mt-1 mb-1-5">
+            <div class="rating-wrapper">
+              <i class="fa-solid fa-star rating-star-icon icon-size"></i>
+              <i class="fa-solid fa-star rating-star-icon icon-size"></i>
+              <i class="fa-solid fa-star rating-star-icon icon-size"></i>
+              <i class="fa-solid fa-star rating-star-icon icon-size"></i>
+              <i class="fa-solid fa-star rating-star-icon icon-size"></i>
+            </div>
+            <div class="warranty-text">36 Month's Warranty</div>
+          </div>
+          <div class="hr-card-price mb-1">
+            <div class="offer-price">
+              <span class="offer-price-amount">₹ 39,999</span>
+              <span class="offer-price-discount">(50% off)</span>
+            </div>
+          </div>
+          <div class="save-price mb-1">
+            <span class="save-price-amount">Save ₹ 40,000</span>
+            <span class="save-price-discount">MRP 79,999</span>
+            <span class="price-incl-text"> (Inc of all taxes) </span>
+          </div>
+          <div class="button-buy-addtocart">
+            <button class="card-add-btn mb-1">Add To Cart</button>
+            <button class="card-buy-btn">Buy Now</button>
+          </div>
+        </section>
+      </article>
+    </div>
+    <script src="card.js"></script>
+  </body>
+</html>
