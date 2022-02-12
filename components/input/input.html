@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./input.css" />
+    <link rel="stylesheet" href="../../gearUI.css" />
+    <title>Input and TextArea</title>
+  </head>
+  <body>
+    <div
+      class="snippet p-2-5 my-1 border flex wrap align-center content-center"
+    >
+      <!-- input -->
+      <div class="flex-column mx-1 my-1">
+        <label class="label font-regular" for="password-example"
+          >Username</label
+        >
+        <input
+          class="input font-regular"
+          type="text"
+          placeholder="Type something here..."
+        />
+      </div>
+      <div class="flex-column mx-1 my-1">
+        <label class="label" for="email-example">Password</label>
+        <input
+          class="input invalid"
+          id="password-example"
+          type="passwrod"
+          placeholder="Input with invalid feedback"
+        />
+        <span class="invalid-feedback">Invalid passwrod</span>
+      </div>
+      <!-- text-area -->
+      <textarea
+        cols="30"
+        class="input my-1 mx-1"
+        placeholder="Enter text here.."
+      ></textarea>
+    </div>
+  </body>
+</html>

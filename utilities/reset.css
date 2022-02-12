@@ -58,10 +58,10 @@ p {
   font-size: 1.25rem;
 }
 
-input,
+/* input,
 textarea {
   border: none;
-}
+} */
 
 /* media */
 img,

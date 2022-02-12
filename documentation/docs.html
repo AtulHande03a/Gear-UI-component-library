@@ -67,7 +67,7 @@
             <a href="#image">Images</a>
           </li>
           <li class="py-0-5 px-1-5 m-0-5 ml-3 list-item">
-            <a href="#badge">Badge</a>
+            <a href="#input">Input</a>
           </li>
           <li class="py-0-5 px-1-5 m-0-5 ml-3 list-item">
             <a href="#badge">Badge</a>
@@ -781,6 +781,61 @@
                 </iframe>
             </div>
             
+          </article>
+        </section>
+
+        <!-- Input and Textarea -->
+    
+        <section id="input">
+          <article>
+            <div>
+              <h3 class="font-black my-1-5">Inputs and Textarea</h3>
+              <p class="mb-0-5">Inputs are used in forms to collect user related data. Use <em>input</em> class to input, select or textarea element</p>
+              <p class="mb-0-5">Use <em>input</em> to the input elements for invalid input.</p>
+              <p class="mb-0-5">Use <em>invalid-feedback</em> for the invalid text feedback.</p>
+            </div>
+            <div
+                class="snippet p-2-5 my-1 border flex wrap align-center content-center"
+                >
+                <!-- input -->
+                <div class="flex-column mx-1 my-1">
+                  <label class="label font-regular" for="password-example">
+                    Username
+                    </label>
+                 
+                  <input
+                    class="input font-regular"
+                    type="text"
+                    placeholder="Type something here..."
+                  />
+                </div>
+                <div class="flex-column mx-1 my-1">
+                  <label class="label" for="email-example">Password</label>
+                  <input
+                    class="input invalid"
+                    id="password-example"
+                    type="passwrod"
+                    placeholder="Input with invalid feedback"
+                  />
+                  <span class="invalid-feedback">Invalid passwrod</span>
+                </div>
+                <!-- text-area -->
+                <textarea
+                  cols="30"
+                  class="input my-1 mx-1"
+                  placeholder="Enter text here.."
+                  >
+                </textarea>
+            </div>
+            <div class="snippet my-1-5">
+                <iframe
+                  src="https://carbon.now.sh/embed/qNcOxb5EbH3C5bkKanPZ"
+                  style="height: 400px; border:0; transform: scale(1); overflow:hidden;               "
+                  sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+ 
+
           </article>
         </section>
           
