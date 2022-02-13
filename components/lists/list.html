@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Atul Hande" />
+    <meta name="description" content="List Component" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./list.css" />
+    <link rel="stylesheet" href="../../gearUI.css" />
+    <title>Lists</title>
+  </head>
+  <body>
+    <!-- Simple List -->
+    <div
+      class="snippet p-2-5 my-1 border flex wrap align-center content-center"
+    >
+      <ul class="list">
+        <div class="list-title text-m">Categories</div>
+        <li class="list-item text-sm">Home</li>
+        <li class="list-item text-sm">Smartphones</li>
+        <li class="list-item text-sm">Earphones</li>
+        <li class="list-item text-sm">Watches</li>
+      </ul>
+
+      <div class="my-1 mx-2">
+        <ul class="list ul-disc">
+          <div class="list-title text-m">Products</div>
+          <li class="list-item text-sm">Recliners</li>
+          <li class="list-item text-sm">Office Chair</li>
+          <li class="list-item text-sm">Coffee Table</li>
+          <li class="list-item text-sm">Standing Desk</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Icon List -->
+    <div
+      class="snippet p-2-5 my-1 border flex wrap align-center content-center text-m"
+    >
+      <ul class="list my-1 mx-2 bg-gray">
+        <div class="list-title">To-Do List</div>
+        <li class="px-0-5 py-0-5">
+          <i class="fa-regular fa-circle px-0-5 py-0-5"></i
+          ><span class="ml-0-5">Component Library</span>
+        </li>
+        <li class="px-0-5 py-0-5">
+          <i class="fa-regular fa-circle px-0-5 py-0-5"></i
+          ><span class="ml-0-5">Ecom Website</span>
+        </li>
+        <li class="green-clr">
+          <i class="fa-regular fa-circle-check px-0-5 py-0-5"></i
+          ><span class="ml-0-5">Procastinate</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Search list Group -->
+    <div
+      class="snippet p-2-5 my-1 border flex wrap align-center content-center"
+    >
+      <div class="list flex-cloumn flex-center">
+        <div class="list-title text-m font-semi">Refine search</div>
+        <div class="check-title text-sm px-1 py-0-5 font-semi">Brand</div>
+        <div class="flex-column text-sm px-1 py-0-5">
+          <label for="checkbox-1" class="label">
+            <input id="checkbox-1" name="checkbox" type="checkbox" checked />
+            Ikea
+          </label>
+          <label for="checkbox-2" class="label">
+            <input id="checkbox-2" name="checkbox" type="checkbox" />
+            Furny
+          </label>
+          <label for="checkbox-3" class="label">
+            <input id="checkbox-3" name="checkbox" type="checkbox" />
+            Evok
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- stacked list -->
+
+    <div
+      class="snippet p-2-5 my-1 border flex wrap align-center content-center text-m"
+    >
+      <ul class="flex flex-column list my-1 mx-1 p-0-5 list-stacked">
+        <li class="flex border-bottom">
+          <img
+            class="br-50 avatar-sm mr-1"
+            src="https://picsum.photos/200/300"
+            alt="avatar"
+          />
+          <div class="list-info">
+            <h3>John Doe</h3>
+            <small class="gray-clr">Hello!!</small>
+          </div>
+        </li>
+        <li class="flex border-bottom">
+          <img
+            class="br-50 avatar-sm mr-1"
+            src="https://picsum.photos/200/300"
+            alt="avatar"
+          />
+          <div class="list-info">
+            <h3>Alexa</h3>
+            <small class="gray-clr">Hmmmm</small>
+          </div>
+        </li>
+        <li class="flex">
+          <img
+            class="br-50 avatar-sm mr-1"
+            src="https://picsum.photos/200/300"
+            alt="avatar"
+          />
+          <div class="list-info">
+            <h3>John Doe</h3>
+            <small class="gray-clr">Hmmmm2</small>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

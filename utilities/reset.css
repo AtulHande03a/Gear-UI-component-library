@@ -27,7 +27,7 @@ a {
 }
 
 li {
-  list-style: none;
+  list-style-type: none;
   padding-inline-start: 0;
 }
 
@@ -57,11 +57,6 @@ h4 {
 p {
   font-size: 1.25rem;
 }
-
-/* input,
-textarea {
-  border: none;
-} */
 
 /* media */
 img,

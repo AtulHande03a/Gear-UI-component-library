@@ -1,0 +1,51 @@
+.list {
+  max-width: 100%;
+  list-style-position: inside;
+  background: var(--white);
+  width: 240px;
+  border: 1px solid var(--gray);
+}
+
+.list-title {
+  padding: 1rem 1rem;
+  margin-bottom: 4px;
+  border-bottom: 1px solid var(--dark-gray);
+}
+
+.list > li {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.ul-disc > li {
+  list-style-type: disc;
+}
+
+.ul-circle > li {
+  list-style-type: circle;
+}
+
+.list > .list-item::marker {
+  color: var(--primary-clr);
+}
+
+.list > .list-item:hover {
+  color: var(--primary-clr);
+  transition: all 0.2s ease-in-out;
+}
+
+.list-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.list-stacked > li:hover {
+  background-color: var(--gray);
+}
