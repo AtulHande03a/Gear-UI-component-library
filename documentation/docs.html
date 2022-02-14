@@ -78,6 +78,9 @@
           <li class="py-0-5 px-1-5 m-0-5 ml-3 list-item">
             <a href="#modal">Modal</a>
           </li>
+          <li class="py-0-5 px-1-5 m-0-5 ml-3 list-item">
+            <a href="#toast">Toast</a>
+          </li>
         </ul>
       </aside>
       <main class="main p-1-5 flex-column bg-clr">
@@ -1436,6 +1439,7 @@
           </article>
         </section>
         <hr class="br-b-1 my-1" />
+
         <!-- Modal -->
         <section id="modal">
           <article>
@@ -1529,6 +1533,7 @@
             </div>
             <div class="snippet my-1-5">
               <iframe
+                loading="lazy"
                 src="https://carbon.now.sh/embed/ECBn96uu3swNzjxgSpMU"
                 style="
                   height: 400px;
@@ -1545,6 +1550,7 @@
 
             <div class="snippet my-1-5">
               <iframe
+                loading="lazy"
                 src="https://carbon.now.sh/embed/AXlgyQU4V9Ig1VZVDARa"
                 style="
                   height: 400px;
@@ -1558,9 +1564,96 @@
             </div>
           </article>
         </section>
+        <hr class="br-b-1 my-1" />
+        <!-- Toast  -->
+
+        <section id="toast">
+          <article>
+            <h3 class="font-black my-1-5">Toast</h3>
+            <p class="mb-0-5">
+              The toast is used to show alerts on top of an overlay. The toast
+              will close itself when the close button is clicked, or after a
+              timeout — the default is 2 seconds. The toast component is used to
+              give feedback to users after an action has taken place.
+            </p>
+            <h4 class="font-semibold my-1">Example of Toast</h4>
+            <!-- Toast -->
+            <div
+              class="snippet p-2-5 my-1 border flex-column wrap align-center content-center"
+            >
+              <div class="flex align-center w-30 br-0-5 p-1 mb-1-5 bg-gray">
+                <i class="fa-regular fa-circle-check alert-icon"></i>
+                <p class="font-semi pl-1">Account created successfully!!</p>
+                <i class="fa fa-times alert-close"></i>
+              </div>
+            </div>
+
+            <div class="snippet my-1-5">
+              <iframe
+                loading="lazy"
+                src="https://carbon.now.sh/embed/nb3fDQD8BV8mceHcMB82"
+                style="
+                  height: 241px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+            <h4 class="font-semibold my-1">Live Example of Toast</h4>
+            <div
+              class="snippet p-2-5 my-1 border flex-column wrap align-center content-center"
+            >
+              <button id="show-toast-btn" class="btn btn-secondary mx-1 my-0-5">
+                Show Toast
+              </button>
+              <div
+                id="toast-container"
+                class="flex align-center w-30 br-0-5 p-1 mb-1-5 z-10 bg-gray hide"
+              >
+                <i class="fa-regular fa-circle-check alert-icon"></i>
+                <p class="font-semi pl-1">Account created successfully!!</p>
+                <i id="toast-close-btn" class="fa fa-times alert-close"></i>
+              </div>
+            </div>
+            <div class="snippet my-1-5">
+              <iframe
+                loading="lazy"
+                src="https://carbon.now.sh/embed/XYVBEQrjSWBBazRApjTi"
+                style="
+                  height: 297px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+            <p class="my-1 text-m">JavaScript for Modal</p>
+            <div class="snippet my-1-5">
+              <iframe
+                loading="lazy"
+                src="https://carbon.now.sh/embed/0n5odqvADQr8dJvyKPJ2"
+                style="
+                  height: 400px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+        </section>
+        <hr class="br-b-1 my-1" />
       </main>
     </div>
 
+    <script src="toast.js" defer></script>
     <script src="modal.js" defer></script>
     <script src="sidebar.js" defer></script>
     <script src="alert.js" defer></script>
