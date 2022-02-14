@@ -54,6 +54,14 @@
   color: var(--secondary-clr);
 }
 
+.gray-clr {
+  color: var(--dark-gray);
+}
+
+.green-clr {
+  color: var(--green);
+}
+
 .bg-clr {
   background-color: var(--bg-color);
 }
@@ -285,4 +293,11 @@
 /* cursor */
 .pointer {
   cursor: pointer;
+}
+
+/* background */
+
+.bg-gray {
+  background-color: var(--gray);
+  color: var(--black);
 }
