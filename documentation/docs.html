@@ -84,6 +84,9 @@
           <li class="py-0-5 px-1-5 m-0-5 ml-3 list-item">
             <a href="#rating">Rating</a>
           </li>
+          <li class="py-0-5 px-1-5 m-0-5 ml-3 list-item">
+            <a href="#slider">Slider</a>
+          </li>
         </ul>
       </aside>
       <main class="main p-1-5 flex-column bg-clr">
@@ -1653,6 +1656,7 @@
           </article>
         </section>
         <hr class="br-b-1 my-1" />
+        <!-- Rating -->
         <section id="rating">
           <article>
             <h3 class="font-black my-1-5">Rating</h3>
@@ -1703,9 +1707,67 @@
             </div>
           </article>
         </section>
+        <hr class="br-b-1 my-1" />
+        <!-- Slider -->
+        <section id="slider">
+          <article>
+            <h3 class="font-black my-1-5">Slider</h3>
+            <p class="mb-0-5">
+              The Slider is used to allow users to make selections from a range
+              of values.
+            </p>
+            <!--Slider Example -->
+            <div class="snippet p-2-5 my-1 border flex-column wrap flex-center">
+              <div class="slider flex-column w-20 px-1">
+                <label for="slider-input" class="mb-1 text-m"
+                  >Select your price range.</label
+                >
+                <input
+                  class="pointer"
+                  id="slider-input"
+                  type="range"
+                  min="1000"
+                  max="10000"
+                  step="1000"
+                />
+              </div>
+              <p class="slider-output mt-1"></p>
+            </div>
+          </article>
+        </section>
+        <div class="snippet my-1-5">
+          <iframe
+            loading="lazy"
+            src="https://carbon.now.sh/embed/6VS83t11m4efdmrh4qRb"
+            style="
+              height: 390px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <p class="my-1 text-m">JavaScript for Slider</p>
+        <div>
+          <iframe
+            loading="lazy"
+            class="snippet my-1-5"
+            src="https://carbon.now.sh/embed/Qbyy1ZWrQP3UZycQTUIt"
+            style="
+              height: 254px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
       </main>
     </div>
-
+    <script src="slider.js"></script>
     <script src="toast.js" defer></script>
     <script src="modal.js" defer></script>
     <script src="sidebar.js" defer></script>
