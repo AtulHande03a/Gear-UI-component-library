@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Toast Component" />
+    <meta name="author" content="Atul Hande" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./toast.css" />
+    <link rel="stylesheet" href="../../gearUI.css" />
+    <title>Modal</title>
+  </head>
+  <body>
+    <!-- Toast -->
+    <div
+      class="snippet p-2-5 my-1 border flex-column wrap align-center content-center"
+    >
+      <div class="flex align-center w-30 br-0-5 p-1 mb-1-5 bg-gray">
+        <i class="fa-regular fa-circle-check alert-icon"></i>
+        <p class="font-semi pl-1">Account created successfully!!</p>
+        <i class="fa fa-times alert-close"></i>
+      </div>
+    </div>
+
+    <!-- Toast Live Example -->
+
+    <div
+      class="snippet p-2-5 my-1 border flex-column wrap align-center content-center"
+    >
+      <button id="show-toast-btn" class="btn btn-secondary mx-1 my-0-5">
+        Show Toast
+      </button>
+      <div
+        id="toast-container"
+        class="flex align-center w-30 br-0-5 p-1 mb-1-5 z-10 bg-gray hide"
+      >
+        <i class="fa-regular fa-circle-check alert-icon"></i>
+        <p class="font-semi pl-1">Account created successfully!!</p>
+        <i id="toast-close-btn" class="fa fa-times alert-close"></i>
+      </div>
+    </div>
+    <script src="./toast.js"></script>
+  </body>
+</html>

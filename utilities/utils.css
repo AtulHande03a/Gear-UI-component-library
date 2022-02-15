@@ -36,6 +36,7 @@
   --hover-primary: #834aff;
   --hover-secondary: #362b48;
   --card-bg: #f8f9fa;
+  --modal-bg: rgba(0, 0, 0, 0.5);
 
   /* letter spacing */
   --spacing: 0.1rem;
@@ -80,6 +81,10 @@
   width: 20em;
 }
 
+.w-30 {
+  width: 30rem;
+}
+
 .w-50 {
   width: 50rem;
 }
@@ -105,6 +110,10 @@
 
 .border {
   border: 1px solid var(--gray);
+}
+
+.border-bottom {
+  border-bottom: 1px solid var(--gray);
 }
 
 .br-2 {
@@ -300,4 +309,9 @@
 .bg-gray {
   background-color: var(--gray);
   color: var(--black);
+}
+
+/* Display none/ hide element */
+.hide {
+  display: none;
 }
