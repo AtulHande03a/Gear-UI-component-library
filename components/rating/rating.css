@@ -1,0 +1,7 @@
+.rating-container {
+  display: inline-flex;
+}
+
+.checked {
+  color: var(--orange);
+}
