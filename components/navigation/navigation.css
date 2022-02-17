@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+
 .header {
   background-color: var(--navbar-bg);
   position: sticky;
@@ -7,23 +9,24 @@
 }
 
 .brandlogo-img {
-  width: 10rem;
-  height: 6rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+.brandname-text {
+  font-family: "Caveat", sans-serif;
+  color: var(--teal);
 }
 
 .navbar-search {
-  display: flex;
-  justify-content: space-between;
   position: relative;
   overflow: none;
   margin: 0 auto;
   border: 1px solid var(--gray);
   background-color: var(--white);
-}
-
-.input-search {
-  width: 30rem;
-  border: none;
 }
 
 .search-btn {
@@ -41,4 +44,55 @@
 .icon-badge-position {
   left: 1.2rem;
   bottom: 0.9rem;
+}
+
+@media screen and (max-width: 720px) {
+  .header {
+    padding: 0.5rem;
+  }
+
+  .header > nav {
+    gap: 1rem;
+  }
+
+  nav > .navbar-search {
+    display: none;
+  }
+
+  nav > .brandlogo-wrapper {
+    padding: 0;
+  }
+
+  .badge-icon {
+    font-size: 1.2rem;
+  }
+
+  nav > .navbar-icons {
+    gap: 0.5rem;
+    padding: 0;
+  }
+  .navbar-icon {
+    padding: none;
+  }
+
+  .navbar-icon > p {
+    font-size: 0.75rem;
+  }
+
+  .brandlogo-img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .brandname-text {
+    font-size: 1.75rem;
+  }
+
+  .icon-badge-position {
+    left: 1rem;
+    bottom: 0.6rem;
+  }
 }
