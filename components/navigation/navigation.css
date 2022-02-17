@@ -1,0 +1,44 @@
+.header {
+  background-color: var(--navbar-bg);
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.brandlogo-img {
+  width: 10rem;
+  height: 6rem;
+}
+
+.navbar-search {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  overflow: none;
+  margin: 0 auto;
+  border: 1px solid var(--gray);
+  background-color: var(--white);
+}
+
+.input-search {
+  width: 30rem;
+  border: none;
+}
+
+.search-btn {
+  width: 2rem;
+  background-color: var(--white);
+  border: none;
+  padding: 0.5rem 0;
+}
+
+.navbar-icons {
+  color: var(--dark-grey);
+  gap: 1rem;
+}
+
+.icon-badge-position {
+  left: 1.2rem;
+  bottom: 0.9rem;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Navigation Component" />
+    <meta name="author" content="Atul Hande" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./navigation.css" />
+    <link rel="stylesheet" href="../../gearUI.css" />
+    <title>Navigation</title>
+  </head>
+  <body>
+    <!--Navigation  -->
+    <header class="header py-0-5 px-1 z-1">
+      <nav class="flex align-center space-between wrap navbar-container">
+        <section class="navbar-brandlogo pl-1">
+          <a href="#">
+            <img
+              class="brandlogo-img"
+              src="../../assets/images/kursi-logo.png"
+              alt="Kursi"
+            />
+          </a>
+        </section>
+
+        <section class="navbar-search">
+          <input
+            class="input-search py-0-5 px-1"
+            required
+            placeholder="Door to happinnes begins with a Search.."
+            type="text"
+          />
+          <button class="search-btn">
+            <i class="fa-solid fa-magnifying-glass text-l"></i>
+          </button>
+        </section>
+        <section class="navbar-icons flex space-between px-1">
+          <div
+            class="navbar-product text-l flex-column align-center text-center p-0-5"
+          >
+            <a href="#"><i class="fa-solid fa-store badge-icon"></i></a>
+            <p class="text-sm">Products</p>
+          </div>
+          <div class="navbar-cart text-l flex-column align-center p-0-5">
+            <a href="#">
+              <i class="fa-solid fa-cart-shopping badge-icon">
+                <span
+                  class="number-badge icon-badge-position font-size-icon green-badge border-white"
+                  >4</span
+                >
+              </i>
+            </a>
+            <p class="text-sm">Cart</p>
+          </div>
+          <div class="navbar-cart text-l flex-column align-center p-0-5">
+            <a href="#">
+              <i class="fa-solid fa-heart badge-icon">
+                <span
+                  class="number-badge icon-badge-position font-size-icon green-badge border-white"
+                  >6</span
+                >
+              </i>
+            </a>
+
+            <p class="text-sm">Wishlist</p>
+          </div>
+          <div
+            class="navbar-product text-l flex-column align-center text-center p-0-5"
+          >
+            <a href="#"><i class="fa-solid fa-user badge-icon"></i></a>
+            <p class="text-sm">Login</p>
+          </div>
+        </section>
+      </nav>
+    </header>
+  </body>
+</html>
