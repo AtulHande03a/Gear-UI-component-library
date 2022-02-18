@@ -37,6 +37,8 @@
   --hover-secondary: #362b48;
   --card-bg: #f8f9fa;
   --modal-bg: rgba(0, 0, 0, 0.5);
+  --navbar-bg: #f6fff8;
+  --teal: #019a94;
 
   /* letter spacing */
   --spacing: 0.1rem;
@@ -126,6 +128,10 @@
 
 .br-50 {
   border-radius: 50%;
+}
+
+.border-none {
+  border: none;
 }
 
 /* font sizes */
