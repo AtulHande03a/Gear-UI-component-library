@@ -19,6 +19,7 @@
 .brandname-text {
   font-family: "Caveat", sans-serif;
   color: var(--teal);
+  margin-right: 0.5rem;
 }
 
 .navbar-search {
@@ -51,9 +52,9 @@
     padding: 0.5rem;
   }
 
-  .header > nav {
+  /* .header > nav {
     gap: 1rem;
-  }
+  } */
 
   nav > .navbar-search {
     display: none;
