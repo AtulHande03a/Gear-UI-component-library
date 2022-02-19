@@ -6,7 +6,7 @@
 @import url("./utilities/padding.css");
 
 /* components css*/
-
+@import url("./styles.css");
 @import url("./components/alert/alert.css");
 @import url("./components/avatar/avatar.css");
 @import url("./components/badge/badge.css");
