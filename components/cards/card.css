@@ -74,7 +74,7 @@
   color: var(--shade-yellow);
 }
 
-.card-addtocart {
+.add-to-cart-action {
   position: absolute;
   bottom: 0.875rem;
   left: 50%;
@@ -84,7 +84,7 @@
   cursor: pointer;
 }
 
-.card-addtocart:hover {
+.add-to-cart-action:hover {
   opacity: 1;
 }
 
@@ -284,7 +284,7 @@
   margin-right: 10px;
 }
 
-.button-buy-addtocart {
+.horizontal-btn-action {
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
