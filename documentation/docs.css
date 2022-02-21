@@ -125,12 +125,26 @@ body {
   background-color: var(--light-blue);
 }
 
+/* components css override */
+.icon-badge-pos {
+  left: 1rem;
+  bottom: 0.8rem;
+}
+
 @media screen and (min-width: 480px) {
   .menu {
     display: none;
   }
   .sidebar-title {
     display: none;
+  }
+
+  /* toast */
+  #toast-container {
+    width: 30rem;
+  }
+  .toast-example {
+    width: 30rem;
   }
 }
 
@@ -179,5 +193,59 @@ body {
     width: 0rem;
     height: 100%;
     background-color: var(--bg-color);
+  }
+
+  /* horizontal card */
+
+  .horizontal-btn-action {
+    display: none;
+  }
+
+  /* modal overrides */
+  .modal-container {
+    max-width: fit-content;
+  }
+
+  /* toast  */
+  #toast-container {
+    width: 20rem;
+  }
+
+  .toast-container {
+    position: fixed;
+    bottom: 4rem;
+    left: auto;
+  }
+
+  .navbar-icons {
+    display: none;
+  }
+
+  /* navigation css */
+
+  .nav-hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border: none;
+    color: var(--black);
+    cursor: pointer;
+  }
+
+  .hamburger-wrapper {
+    margin-left: auto;
+    margin-right: 1rem;
+    display: flex;
+  }
+
+  .hamburger-list {
+    position: absolute;
+    top: 3.5rem;
+    right: 1rem;
+    z-index: 10;
+    outline: 1px solid var(--gray);
+    gap: 0.7rem;
+    background-color: var(--bg-color);
+    cursor: pointer;
   }
 }

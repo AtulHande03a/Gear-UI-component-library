@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Atul Hande" />
-    <meta name="description" content="Gear UI documentation page." />
+    <meta
+      name="description"
+      content="Gear UI is a CSS
+              component library for developing fast and powerful web interfaces."
+    />
     <link rel="stylesheet" href="docs.css" />
-    <title>Gear UI | Get Started</title>
+    <title>Gear UI | Documentation</title>
   </head>
   <body>
     <div class="grid-container">
@@ -90,7 +94,7 @@
           <li class="py-0-5 px-1-5 m-0-5 ml-3 list-item">
             <a href="#navigation">Navigation</a>
           </li>
-          <li class="py-0-5 px-1-5 m-0-5 ml-3 list-item">
+          <li class="py-0-5 px-1-5 m-0-5 ml-3 mb-0-5 list-item">
             <a href="#grid">Grid</a>
           </li>
         </ul>
@@ -106,9 +110,14 @@
           </article>
           <article class="mt-2">
             <h3 class="font-bold py-1">Installation</h3>
-            <p>
+            <p class="mb-0-5">
               To start using the components in your project import the
-              stylesheet in your css or html file.
+              stylesheet in your html file.
+            </p>
+            <p>
+              Copy and paste the code in the head tag of your html document. So
+              that you can style your components by just adding class names to
+              your html elements
             </p>
             <div class="my-1-5 snippet">
               <iframe
@@ -116,6 +125,24 @@
                 src="https://carbon.now.sh/embed/tPGxVJfjmP9wF4cd39jv"
                 style="
                   height: 200px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+            <p class="mb-0-5">
+              To start using the components in your project import the
+              stylesheet in your css file.
+            </p>
+            <p>Copy paste the code in your css file.</p>
+            <div class="my-1-5 snippet">
+              <iframe
+                src="https://carbon.now.sh/embed/ifZUgBmOhZiAnxeDNzXt"
+                style="
+                  height: 138px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
@@ -136,7 +163,7 @@
                 >
               </li>
               <li class="text-sm">
-                Images from google images and
+                Images from google images,canva and
                 <a class="underline" href="https://picsum.photos/">picsum</a>
               </li>
             </ol>
@@ -149,10 +176,17 @@
           <article>
             <div>
               <h3 class="font-black my-1-5">Alert</h3>
-              <p>Alerts are used for showcasing small messages to user.</p>
-              <p>
+              <p class="mb-0-5">
+                Alerts are used to communicate a state that affects a system,
+                feature or page.
+              </p>
+              <p class="mb-0-5">
                 Use different alerts depending upon the use cases such as, to
                 show success, information, error and warning.
+              </p>
+              <p>
+                Use class <code>success,info,error,warning </code>to create the
+                alerts.
               </p>
             </div>
             <div
@@ -189,7 +223,7 @@
                 class="warning alert flex align-center w-50 br-0-5 p-1 mb-1-5"
               >
                 <i class="fa fa-warning alert-icon"></i>
-                <p>This is a warning alert.</p>
+                <p class="p-0-5">This is a warning alert.</p>
                 <i class="fa fa-times alert-close"></i>
               </div>
             </div>
@@ -267,7 +301,7 @@
             <div>
               <h3 class="font-black my-1-5">Avatar</h3>
               <h4 class="font-semibold my-1">Image Avatar</h4>
-              <p>
+              <p class="mb-0-5">
                 Change the size of avatar by simply changing the class according
                 to your usecase.
               </p>
@@ -321,10 +355,11 @@
             </div>
             <!-- text avatar -->
             <h4 class="font-semibold my-1">Text Avatar</h4>
-            <p>
+            <p class="mb-0-5">
               Text avatars,will use your initials of your name when no image is
               provided.
             </p>
+            <p>Use class <code>text-avatar </code> to add text.</p>
             <div
               class="snippet text-center p-2-5 my-1 border flex wrap align-center content-center"
             >
@@ -373,8 +408,8 @@
             <div>
               <h3 class="font-black my-1-5">Badge</h3>
               <p>
-                Badges are used to display the notification count or status
-                display.
+                Badges are used to highlight an item's status for quick
+                recognition.
               </p>
               <!-- status badge -->
               <h4 class="font-semibold my-1">Status Badge</h4>
@@ -497,14 +532,14 @@
               <p>
                 Buttons are the soul of an interactive Web Application. Buttons
                 allow users to take actions, and make choices, with a single
-                tap.
+                click.
               </p>
             </div>
             <!-- Solid button -->
             <h4 class="font-semibold my-1">Solid Button</h4>
             <p>
               The solid button component is available in four variants
-              <em>btn-primary,btn-secondary,btn-success, btn-danger</em>.
+              <code>btn-primary,btn-secondary,btn-success, btn-danger</code>.
             </p>
             <div
               class="snippet text-center p-2-5 my-1 border flex wrap align-center content-center"
@@ -535,9 +570,9 @@
             <h4 class="font-semibold my-1">Outline Button</h4>
             <p>
               The outline button type is available in four variants
-              <em
+              <code
                 >btn-outline-primary, btn-outline-secondary,
-                btn-outline-success, btn-ouline-danger</em
+                btn-outline-success, btn-ouline-danger</code
               >.
             </p>
             <div
@@ -573,10 +608,17 @@
 
             <!-- Icon and Link button -->
             <h4 class="font-semibold my-1">Icon and Link Button</h4>
-            <p>
+            <p class="mb-0-5">
               The Icon button are available in two types icon and icon with text
-              type. The link button is a button which on click will go to
-              particular page or link.
+              type.
+            </p>
+            <p class="mb-0-5">
+              The link button is a button which on click will go to particular
+              page or link.
+            </p>
+            <p>
+              Use <code>icon-btn, btn-link</code> classes to use icon and link
+              button.
             </p>
             <div
               class="snippet text-center p-2-5 my-1 border flex wrap align-center content-center"
@@ -608,7 +650,8 @@
               Floating action buttons are used to perform primary or common
               actions on the screen. Circular in shape, they remain fixed on the
               bottom left corner of the screen and on top of all content. To
-              create a floating button, add the class <em>btn-float-icon</em>
+              create a floating button, add the class
+              <code>btn-float-icon</code>
             </p>
             <div
               class="snippet text-center p-2-5 my-1 border flex wrap align-center content-center"
@@ -639,7 +682,7 @@
           <article>
             <div>
               <h3 class="font-black my-1-5">Cards</h3>
-              <p>
+              <p class="mb-0-5">
                 Card are used to show user related data collectively, like
                 product details.
               </p>
@@ -653,10 +696,10 @@
             <p>
               This is a basic card with an image, title, subtitle, description,
               price, and buttons. The base class for a basic card is
-              <em>card-verticle</em>.
+              <code>card-verticle</code>.
             </p>
             <div
-              class="snippet p-2-5 my-1 border flex wrap align-center content-center"
+              class="snippet p-0-5 my-1 border flex wrap align-center content-center"
             >
               <!-- Basic Vertical Card -->
               <article class="card-verticle flex flex-column mr-2 my-1">
@@ -709,10 +752,11 @@
             <h4 class="font-semibold my-1">Vertical card with Badge</h4>
             <p>
               Along with the base classes card verticle, add the the class
-              text-badge class to generate cards with a badge..
+              <code>text-badge </code>
+              class to generate cards with a badge..
             </p>
             <div
-              class="snippet p-2-5 my-1 border flex wrap align-center content-center"
+              class="snippet p-0-5 my-1 border flex wrap align-center content-center"
             >
               <article class="card-verticle flex flex-column mr-2 my-1">
                 <section class="image-container mb-0-5">
@@ -728,7 +772,7 @@
                     <span class="card-rating-star">4.5</span>
                     <i class="fa-solid fa-star rating-star-icon"></i>
                   </div>
-                  <div class="card-addtocart orange-btn">
+                  <div class="add-to-cart-action orange-btn">
                     <a href="#" class="add-to-cart-btn">Add To Cart</a>
                   </div>
                 </section>
@@ -771,12 +815,13 @@
             <!-- Vertical card with dismiss btn -->
             <h4 class="font-semibold my-1">Vertical card with Dismiss</h4>
             <p>
-              Along with the base classes card-verticle, add the the class
-              dismiss-btn class to generate cards with a dismiss button.
+              Along with the base classes <code>card-verticle</code> , add the
+              the class <code> dismiss-btn</code>
+              class to generate cards with a dismiss button.
             </p>
 
             <div
-              class="snippet p-2-5 my-1 border flex wrap align-center content-center"
+              class="snippet p-0-5 my-1 border flex wrap align-center content-center"
             >
               <article class="card-verticle flex flex-column mr-2 my-1">
                 <section class="image-container mb-0-5">
@@ -793,7 +838,7 @@
                     <span class="card-rating-star">4.5</span>
                     <i class="fa-solid fa-star rating-star-icon"></i>
                   </div>
-                  <div class="card-addtocart orange-btn">
+                  <div class="add-to-cart-action orange-btn">
                     <a href="#" class="add-to-cart-btn">Add To Cart</a>
                   </div>
                 </section>
@@ -837,7 +882,7 @@
             <h4 class="font-semibold my-1">Card with Text Overlay</h4>
 
             <div
-              class="snippet p-2-5 my-1 border flex wrap align-center content-center"
+              class="snippet p-0-5 my-1 border flex wrap align-center content-center"
             >
               <article class="card-verticle flex flex-column mr-2 my-1">
                 <div class="overlay-container">
@@ -902,7 +947,7 @@
             <!-- Text only Card -->
             <h4 class="font-semibold my-1">Text Only Card</h4>
             <div
-              class="snippet p-2-5 my-1 border flex wrap align-center content-center"
+              class="snippet p-0-5 my-1 border flex wrap align-center content-center"
             >
               <article class="card-verticle flex flex-column mr-2 my-1">
                 <section class="px-0-5 my-1 mr-1">
@@ -944,9 +989,12 @@
             <!-- Horizontal Card -->
 
             <h4 class="font-semibold my-1">Horizontal Card</h4>
-
+            <p class="mb-05">
+              Use class <code>card horizontal</code> to add horizontal card in
+              your project.
+            </p>
             <div
-              class="snippet p-2-5 my-1 border flex wrap align-center content-center"
+              class="snippet p-0-5 my-1 border flex wrap align-center content-center"
             >
               <article class="card-horizontal flex my-2">
                 <section class="horizontal-image-container mr-1">
@@ -998,7 +1046,7 @@
                     <span class="save-price-discount">MRP 79,999</span>
                     <span class="price-incl-text"> (Inc of all taxes) </span>
                   </div>
-                  <div class="button-buy-addtocart">
+                  <div class="horizontal-btn-action">
                     <button class="card-add-btn mb-1">Add To Cart</button>
                     <button class="card-buy-btn">Buy Now</button>
                   </div>
@@ -1030,14 +1078,18 @@
               <h3 class="font-black my-1-5">Images</h3>
               <p class="mb-0-5">
                 Images can be responsive to fit the parent's width, and also can
-                be customised to be round shaped
+                be customised to be round shaped.
               </p>
               <p class="mb-1">
-                You can use picsum for add images. Also, the images given below
+                You can use picsum to add images. Also, the images given below
                 are all responsive. Types include rounded and rounded edges
-                images.For round images use class br-50 and for rounded corners
-                use br-0-5. Add image-responsive class to your image to make
-                them responsive
+                images.
+              </p>
+              <p>
+                For round images use class <code>br-50</code> and for rounded
+                corners use <code>br-0-5</code> . Add
+                <code>image-responsive</code> class to your image to make them
+                responsive
               </p>
             </div>
             <div
@@ -1089,13 +1141,14 @@
               <h3 class="font-black my-1-5">Inputs and Textarea</h3>
               <p class="mb-0-5">
                 Inputs are used in forms to collect user related data. Use
-                <em>input</em> class to input, select or textarea element
+                <code>input</code> class to input, select or textarea element
               </p>
               <p class="mb-0-5">
-                Use <em>input</em> to the input elements for invalid input.
+                Use <code>input invalid</code> class to the input elements for
+                invalid input.
               </p>
               <p class="mb-0-5">
-                Use <em>invalid-feedback</em> for the invalid text feedback.
+                Use <code>invalid-feedback</code> for the invalid text feedback.
               </p>
             </div>
             <div
@@ -1159,9 +1212,10 @@
               </p>
             </div>
             <h4 class="font-semibold my-1">Headings</h4>
+            <p class="mb-0-5">The headings from h1 to h6 are provided.</p>
             <!-- Headings utilities -->
             <div
-              class="snippet p-2-5 my-1 border flex flex-column wrap text-left content-center"
+              class="snippet p-0-5 my-1 border flex flex-column wrap text-left content-center"
             >
               <h1 class="my-1 mx-1">This is Heading 1</h1>
               <h2 class="my-1 mx-1">This is Heading 2</h2>
@@ -1186,8 +1240,16 @@
             </div>
 
             <h4 class="font-semibold my-1">Text Utility</h4>
+            <p class="mb-0-5">
+              The text utility contains different text sizes used in component
+              library.
+            </p>
+            <p class="mb-0-5">
+              Use classes <code>text-xl, text-l, text-m, text-sm </code>to use
+              the different text sizes.
+            </p>
             <div
-              class="snippet p-2-5 my-1 border flex flex-column wrap text-left content-center"
+              class="snippet p-0-5 my-1 border flex flex-column wrap text-left content-center"
             >
               <p class="text-xl my-1 mx-1">Xtra large sized text</p>
               <p class="text-l my-1 mx-1">Large sized text</p>
@@ -1209,7 +1271,13 @@
               </iframe>
             </div>
             <h4 class="font-semibold my-1">Colored Text Utility</h4>
-
+            <p class="mb-0-5">
+              Colored text utility contains text with different colors.
+            </p>
+            <p class="mb-0-5">
+              Use class <code>primary-clr, secondary-clr, gray-clr </code> to
+              use text with colors .
+            </p>
             <!-- Colored text utility -->
             <div
               class="snippet p-2-5 my-1 border flex flex-column wrap text-left content-center"
@@ -1235,8 +1303,16 @@
 
             <!--Aligned text utility -->
             <h4 class="font-semibold my-1">Aligned Text Utility</h4>
+            <p class="mb-0-5">
+              Aligned text has text with text aligned at different positions
+              like left, center, right.
+            </p>
+            <p class="mb-0-5">
+              Use class
+              <code>text-left, text-center, text-right </code> in your tags.
+            </p>
             <div
-              class="snippet p-2-5 my-1 border flex flex-column wrap text-left content-center"
+              class="snippet p-0-5 my-1 border flex flex-column wrap text-left content-center"
             >
               <p class="text-left my-1 mx-1">Left align</p>
               <p class="text-center my-1 mx-1">Center align</p>
@@ -1272,8 +1348,12 @@
 
             <!-- Simple List -->
             <h4 class="font-semibold my-1">Simple List</h4>
+            <p class="mb-0-5">
+              Simple list shows list with none type and also list with with disc
+              type.To use different style list type that you want.
+            </p>
             <div
-              class="snippet p-2-5 my-1 border flex wrap align-center content-center"
+              class="snippet p-0-5 my-1 border flex wrap align-center content-center"
             >
               <div class="my-1 mx-2">
                 <ul class="list">
@@ -1312,10 +1392,11 @@
 
             <!-- Icon List -->
             <h4 class="font-semibold my-1">Icon List</h4>
+
             <div
-              class="snippet p-2-5 my-1 border flex wrap align-center content-center text-m"
+              class="snippet p-0-5 my-1 border flex wrap align-center content-center text-m"
             >
-              <ul class="list my-1 mx-2 bg-gray">
+              <ul class="list my-0-5 mx-0-5 bg-gray">
                 <div class="list-title">To-Do List</div>
                 <li class="px-0-5 py-0-5">
                   <i class="fa-regular fa-circle px-0-5 py-0-5"></i
@@ -1396,7 +1477,7 @@
             <h4 class="font-semibold my-1">Stacked List</h4>
 
             <div
-              class="snippet p-2-5 my-1 border flex wrap align-center content-center text-m"
+              class="snippet p-0-5 my-1 border flex wrap align-center content-center text-m"
             >
               <ul class="flex flex-column list my-1 mx-1 p-0-5 list-stacked">
                 <li class="flex border-bottom">
@@ -1461,10 +1542,13 @@
               remove scroll from the page. It gets closed only with close button
               on modal pop-up.
             </p>
+            <p class="mb-0-5">
+              Use class <code>modal-container</code> to create a modal.
+            </p>
             <h4 class="font-semibold my-1">Example of Modal</h4>
             <!-- Modal Example -->
             <div
-              class="snippet p-2-5 my-1 border flex-column wrap align-center content-center"
+              class="snippet p-0-5 my-1 border flex-column wrap align-center content-center"
             >
               <div class="modal-container m-1 p-0-5 flex-column bg-gray br-0-5">
                 <i class="fa fa-times alert-close pointer"></i>
@@ -1591,9 +1675,11 @@
             <h4 class="font-semibold my-1">Example of Toast</h4>
             <!-- Toast -->
             <div
-              class="snippet p-2-5 my-1 border flex-column wrap align-center content-center"
+              class="snippet p-0-5 my-1 border flex-column wrap align-center content-center"
             >
-              <div class="flex align-center w-30 br-0-5 p-1 mb-1-5 bg-gray">
+              <div
+                class="flex align-center br-0-5 p-1 mb-1-5 bg-gray toast-example"
+              >
                 <i class="fa-regular fa-circle-check alert-icon"></i>
                 <p class="font-semi pl-1">Account created successfully!!</p>
                 <i class="fa fa-times alert-close"></i>
@@ -1623,7 +1709,7 @@
               </button>
               <div
                 id="toast-container"
-                class="flex align-center w-30 br-0-5 p-1 mb-1-5 z-10 bg-gray hide"
+                class="flex align-center br-0-5 p-1 mb-1-5 z-10 bg-gray hide toast-container"
               >
                 <i class="fa-regular fa-circle-check alert-icon"></i>
                 <p class="font-semi pl-1">Account created successfully!!</p>
@@ -1722,6 +1808,7 @@
               The Slider is used to allow users to make selections from a range
               of values.
             </p>
+            <p class="mb-0-5">Move slider to see it working!!</p>
             <!--Slider Example -->
             <div class="snippet p-2-5 my-1 border flex-column wrap flex-center">
               <div class="slider flex-column w-20 px-1">
@@ -1782,6 +1869,9 @@
               between different pages.
             </p>
             <h4 class="font-semibold my-1">Responsive Navigation</h4>
+            <p class="mb-1">
+              Navigation is responsive and contains hamburger and submenus
+            </p>
             <div class="snippet border flex wrap text-m">
               <!--Navigation  -->
               <header class="header py-0-5 z-1 w-100">
@@ -1809,6 +1899,18 @@
                     <button class="search-btn">
                       <i class="fa-solid fa-magnifying-glass text-l"></i>
                     </button>
+                  </section>
+                  <section class="hamburger-wrapper hide">
+                    <button class="nav-hamburger-icon text-l">
+                      <i class="fa fa-bars"></i>
+                    </button>
+                    <div class="hamburger-list hide">
+                      <ul>
+                        <li>Products</li>
+                        <li>Cart</li>
+                        <li>Wishlist</li>
+                      </ul>
+                    </div>
                   </section>
                   <section class="navbar-icons flex space-between px-1">
                     <div
@@ -1880,10 +1982,15 @@
           <article>
             <h3 class="font-black my-1-5">Grid</h3>
             <p class="mb-0-5">
-              Navigation can be used to give the user facility to navigate
-              between different pages.
+              Simply said, it is a table on steroids. It can also align elements
+              by columns and rows. However, using css grid you can create way
+              more complex layouts than with tables.
             </p>
             <h4 class="font-semibold my-1">Two Column Grid</h4>
+            <p class="mb-0-5">
+              Use classes <code>grid , grid-cols-2 </code> to use two colun
+              grid.
+            </p>
             <!-- Two column grid -->
             <div class="snippet p-2-5 my-1 border">
               <div class="grid grid-cols-2 text-m text-center">
@@ -1893,6 +2000,10 @@
             </div>
             <!-- Two row grid -->
             <h4 class="font-semibold my-1">Two Row Grid</h4>
+            <p class="mb-0-5">
+              Use classes <code>grid , grid-rows-2 </code> to use two colun
+              grid.
+            </p>
             <div class="snippet p-2-5 my-1 border">
               <div class="grid grid-rows-2 text-m text-center">
                 <div>Grid Item One</div>
@@ -1901,7 +2012,11 @@
             </div>
             <!-- Three column grid -->
             <h4 class="font-semibold my-1">Three Column Grid</h4>
-            <div class="snippet p-2-5 my-1 border">
+            <p class="mb-0-5">
+              Use classes <code>grid , grid-cols-3 </code> to use two colun
+              grid.
+            </p>
+            <div class="snippet p-0-5 my-1 border">
               <div class="grid grid-cols-3 text-m text-center">
                 <div>Grid Item One</div>
                 <div>Grid Item Two</div>
@@ -1911,7 +2026,11 @@
 
             <!-- Three row grid -->
             <h4 class="font-semibold my-1">Three Row Grid</h4>
-            <div class="snippet p-2-5 my-1 border">
+            <p class="mb-0-5">
+              Use classes <code>grid , grid-rows-3 </code> to use two colun
+              grid.
+            </p>
+            <div class="snippet p-0-5 my-1 border">
               <div class="grid grid-rows-3 text-m text-center">
                 <div>Grid Item One</div>
                 <div>Grid Item Two</div>
@@ -1936,7 +2055,7 @@
         </section>
       </main>
     </div>
-    
+    <script src="./navigation.js" defer></script>
     <script src="slider.js" defer></script>
     <script src="toast.js" defer></script>
     <script src="modal.js" defer></script>
