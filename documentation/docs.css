@@ -8,6 +8,10 @@
 
 /* grid-container */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--black);
 }
@@ -111,6 +115,11 @@ body {
   max-width: 95rem;
 }
 
+.snippet iframe {
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+}
 .underline {
   text-decoration: underline;
 }
@@ -123,12 +132,6 @@ body {
 
 .reset-btn:hover {
   background-color: var(--light-blue);
-}
-
-/* components css override */
-.icon-badge-pos {
-  left: 1rem;
-  bottom: 0.8rem;
 }
 
 @media screen and (min-width: 480px) {
@@ -195,6 +198,12 @@ body {
     background-color: var(--bg-color);
   }
 
+  /* icon override */
+  .icon-badge-pos {
+    left: 1rem;
+    bottom: 0.8rem;
+  }
+
   /* horizontal card */
 
   .horizontal-btn-action {
@@ -245,7 +254,8 @@ body {
     z-index: 10;
     outline: 1px solid var(--gray);
     gap: 0.7rem;
-    background-color: var(--bg-color);
+    background-color: var(--white);
     cursor: pointer;
+    padding: 0.7rem 0.7rem;
   }
 }
