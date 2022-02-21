@@ -8,6 +8,10 @@
 
 /* grid-container */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--black);
 }
@@ -111,6 +115,11 @@ body {
   max-width: 95rem;
 }
 
+.snippet iframe {
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+}
 .underline {
   text-decoration: underline;
 }
@@ -131,6 +140,14 @@ body {
   }
   .sidebar-title {
     display: none;
+  }
+
+  /* toast */
+  #toast-container {
+    width: 30rem;
+  }
+  .toast-example {
+    width: 30rem;
   }
 }
 
@@ -179,5 +196,66 @@ body {
     width: 0rem;
     height: 100%;
     background-color: var(--bg-color);
+  }
+
+  /* icon override */
+  .icon-badge-pos {
+    left: 1rem;
+    bottom: 0.8rem;
+  }
+
+  /* horizontal card */
+
+  .horizontal-btn-action {
+    display: none;
+  }
+
+  /* modal overrides */
+  .modal-container {
+    max-width: fit-content;
+  }
+
+  /* toast  */
+  #toast-container {
+    width: 20rem;
+  }
+
+  .toast-container {
+    position: fixed;
+    bottom: 4rem;
+    left: auto;
+  }
+
+  .navbar-icons {
+    display: none;
+  }
+
+  /* navigation css */
+
+  .nav-hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border: none;
+    color: var(--black);
+    cursor: pointer;
+  }
+
+  .hamburger-wrapper {
+    margin-left: auto;
+    margin-right: 1rem;
+    display: flex;
+  }
+
+  .hamburger-list {
+    position: absolute;
+    top: 3.5rem;
+    right: 1rem;
+    z-index: 10;
+    outline: 1px solid var(--gray);
+    gap: 0.7rem;
+    background-color: var(--white);
+    cursor: pointer;
+    padding: 0.7rem 0.7rem;
   }
 }
